@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template name="dataLinkAtt">
+  <dataLink field="atributoForca">
+    <event name="onChange">
+                        local valorForca = tonumber(sheet.atributoForca);                      
+
+                        if (valorForca ~= nil) then
+                                sheet.modificadorForca = math.floor(valorForca / 2) - 5; 
+
+                                if sheet.modificadorForca > 0 then
+                                        sheet.modificadorForca = "+" .. sheet.modificadorForca;
+                                end;
+                        else
+                                sheet.modificadorForca = nil;
+                        end;
+    </event>
+  </dataLink>
+  <dataLink field="atributoDestreza">
+    <event name="onChange">
+                        local valorDestreza = tonumber(sheet.atributoDestreza);                      
+
+                        if (valorDestreza ~= nil) then
+                                sheet.modificadorDestreza = math.floor(valorDestreza / 2) - 5; 
+
+                                if sheet.modificadorDestreza > 0 then
+                                        sheet.modificadorDestreza = "+" .. sheet.modificadorDestreza;
+                                end;
+                        else
+                                sheet.modificadorDestreza = nil;
+                        end;
+    </event>
+  </dataLink>
+  <dataLink field="atributoConstituicao">
+    <event name="onChange">
+                        local valorConstituicao = tonumber(sheet.atributoConstituicao);                      
+
+                        if (valorConstituicao ~= nil) then
+                                sheet.modificadorConstituicao = math.floor(valorConstituicao / 2) - 5; 
+
+                                if sheet.modificadorConstituicao > 0 then
+                                        sheet.modificadorConstituicao = "+" .. sheet.modificadorConstituicao;
+                                end;
+                        else
+                                sheet.modificadorConstituicao = nil;
+                        end;
+    </event>
+  </dataLink>
+  <dataLink field="atributoInteligencia">
+    <event name="onChange">
+                        local valorInteligencia = tonumber(sheet.atributoInteligencia);                      
+
+                        if (valorInteligencia ~= nil) then
+                                sheet.modificadorInteligencia = math.floor(valorInteligencia / 2) - 5; 
+
+                                if sheet.modificadorInteligencia > 0 then
+                                        sheet.modificadorInteligencia = "+" .. sheet.modificadorInteligencia;
+                                end;
+                        else
+                                sheet.modificadorInteligencia = nil;
+                        end;
+    </event>
+  </dataLink>
+  <dataLink field="atributoSabedoria">
+    <event name="onChange">
+                        local valorSabedoria = tonumber(sheet.atributoSabedoria);                      
+
+                        if (valorSabedoria ~= nil) then
+                                sheet.modificadorSabedoria = math.floor(valorSabedoria / 2) - 5; 
+
+                                if sheet.modificadorSabedoria > 0 then
+                                        sheet.modificadorSabedoria = "+" .. sheet.modificadorSabedoria;
+                                end;
+                        else
+                                sheet.modificadorSabedoria = nil;
+                        end;
+    </event>
+  </dataLink>
+  <dataLink field="atributoCarisma">
+    <event name="onChange">
+                        local valorCarisma = tonumber(sheet.atributoCarisma);                      
+
+                        if (valorCarisma ~= nil) then
+                                sheet.modificadorCarisma = math.floor(valorCarisma / 2) - 5; 
+
+                                if sheet.modificadorCarisma > 0 then
+                                        sheet.modificadorCarisma = "+" .. sheet.modificadorCarisma;
+                                end;
+                        else
+                                sheet.modificadorCarisma = nil;
+                        end;
+    </event>
+  </dataLink>
+</template>

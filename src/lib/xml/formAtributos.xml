@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template name="formAtributos">
+        <layout left="20" top="20" height="25" width="250">
+                <label align="left" text="Força:" width="90"/>
+                <edit right="2" align="client" field="atributoForca"/>
+                <label align="right" width="30" field="modificadorForca" horzTextAlign="center"/>
+        </layout>
+        <layout left="20" top="50" height="25" width="250">
+                <label align="left" text="Destreza:" width="90"/>
+                <edit right="2" align="client" field="atributoDestreza"/>
+                <label align="right" width="30" field="modificadorDestreza" horzTextAlign="center"/>
+        </layout>
+        <layout left="20" top="80" height="25" width="250">
+                <label align="left" text="Constituição:" width="90"/>
+                <edit right="2" align="client" field="atributoConstituicao"/>
+                <label align="right" width="30" field="modificadorConstituicao" horzTextAlign="center"/>
+        </layout>
+        <layout left="20" top="110" height="25" width="250">
+                <label align="left" text="Inteligência:" width="90"/>
+                <edit right="2" align="client" field="atributoInteligencia"/>
+                <label align="right" width="30" field="modificadorInteligencia" horzTextAlign="center"/>
+        </layout>
+        <layout left="20" top="140" height="25" width="250">
+                <label align="left" text="Sabedoria:" width="90"/>
+                <edit right="2" align="client" field="atributoSabedoria"/>
+                <label align="right" width="30" field="modificadorSabedoria" horzTextAlign="center"/>
+        </layout>
+        <layout left="20" top="170" height="25" width="250">
+                <label align="left" text="Carisma:" width="90"/>
+                <edit right="2" align="client" field="atributoCarisma"/>
+                <label align="right" width="30" field="modificadorCarisma" horzTextAlign="center"/>
+        </layout>
+</template>
