@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowLayout align="client" orientation="vertical" horzAlign="justify" 
+margins="{left=20, top=20, bottom=20, right=20}">
+  <flowPart minWidth="130" maxWidth="200" height="25">
+    <Atributo nomeDoAtributo="Força" tagModificadorDoAtributo="for.mod" tagTotalAtributo="for.total" 
+    tagBaseAtributo="for.base" tagBonusAtributo="for.bonus" />
+    <Atributo nomeDoAtributo="Destreza" tagModificadorDoAtributo="des.mod" tagTotalAtributo="des.total" 
+    tagBaseAtributo="des.base" tagBonusAtributo="des.bonus" />
+    <Atributo nomeDoAtributo="Constituição" tagModificadorDoAtributo="con.mod" tagTotalAtributo="con.total"
+     tagBaseAtributo="con.base" tagBonusAtributo="con.bonus" />
+    <Atributo nomeDoAtributo="Inteligência" tagModificadorDoAtributo="int.mod" tagTotalAtributo="int.total" 
+    tagBaseAtributo="int.base" tagBonusAtributo="int.bonus" />
+    <Atributo nomeDoAtributo="Sabedoria" tagModificadorDoAtributo="sab.mod" tagTotalAtributo="sab.total" 
+    tagBaseAtributo="sab.base" tagBonusAtributo="sab.bonus" />
+    <Atributo nomeDoAtributo="Carisma" tagModificadorDoAtributo="car.mod" tagTotalAtributo="car.total" 
+    tagBaseAtributo="car.base" tagBonusAtributo="car.bonus" />
+  </flowPart>
+</flowLayout>
