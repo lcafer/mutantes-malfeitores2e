@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<flowLayout>
-  <import file="geral/0.infoPersonagem.xml"/>
-  <import file="geral/1.atributos.xml"/>
-  <import file="geral/2.habilidades.xml"/>
-  <import file="geral/3.combate.xml"/>
-  <import file="geral/4.condicoes.xml"/>
-</flowLayout>
