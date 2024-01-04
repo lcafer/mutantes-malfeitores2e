@@ -1,6 +1,6 @@
-<center>
 [![Firecast Logo](https://firecast.app/wp-content/uploads/2021/03/logo1024x1024no_padding-300x300.png "Firecast Logo")](firecast.app)
-</center>
+
+**Clique no logo para acessar o site**
 
 ### Porque não tem as pastas sdk e output no repositório?
 
