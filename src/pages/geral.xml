@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tab title="Geral">
-  <!--CONTENT-->
+        <formAtributos />
+        <dataLinkAtt />
 </tab>
