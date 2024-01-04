@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="resistencia">
+        <template name="formResistencias">
+                <layout left="400" top="10" width="400" height="100">
+                        <label text="Resistência " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+                        <entrada campo="total.resist" titulo="Total" />
+                        <entrada campo="mod.res" titulo="Con" />
+                        <entrada campo="base.res" titulo="Base" />
+                        <entrada campo="bonus.res" titulo="Bonus" />
+                </layout>
+                <layout left="400" top="120" width="400" height="100">
+                        <label text="Fortitude " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+                        <entrada campo="total.fort" titulo="Total" />
+                        <entrada campo="mod.fort" titulo="Con" />
+                        <entrada campo="base.fort" titulo="Base" />
+                        <entrada campo="bonus.fort" titulo="Bonus" />
+                </layout>
+                <layout left="400" top="230" width="400" height="100">
+                        <label text="Reflexo " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+                        <entrada campo="total.ref" titulo="Total" />
+                        <entrada campo="mod.ref" titulo="Des" />
+                        <entrada campo="base.ref" titulo="Base" />
+                        <entrada campo="bonus.ref" titulo="Bonus" />
+                </layout>
+                <layout left="400" top="340" width="400" height="100">
+                        <label text="Vontade " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+                        <entrada campo="total.vont" titulo="Total" />
+                        <entrada campo="mod.vont" titulo="Sab" />
+                        <entrada campo="base.vont" titulo="Base" />
+                        <entrada campo="bonus.vont" titulo="Bonus" />
+                </layout>
+                 <layout left="400" top="440" width="400" height="100">
+                        <label text="Pontos de Herói " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+                        <entrada campo="points.hero" titulo="Pontos" />
+                 </layout>
+        </template>
+</form>

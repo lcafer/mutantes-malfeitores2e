@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="combate">
+  <template name="formCombate">
+    <layout left="20" top="225" width="400" height="100">
+      <label text="Ataque: " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+      <entrada campo="base.atk" titulo="Base" />
+      <entrada campo="melee.atk" titulo="Corpo a Corpo" />
+      <entrada campo="ranged.atk" titulo="A distância" />
+    </layout>
+     <layout left="20" top="325" width="400" height="100">
+      <label text="Defesa: " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+      <entrada campo="total.def" titulo="Total " />
+      <entrada campo="dodge.def" titulo="Esquiva" />
+      <entrada campo="base.def" titulo="Base" />
+      <entrada campo="tamanho.def" titulo="Tamanho" />
+      <entrada campo="bonus.def" titulo="Bônus" />
+    </layout>
+    <layout left="20" top="425" width="400" height="100">
+      <label text="Iniciativa: " align="top" horzTextAlign="leading" vertTextAlign="leading" fontSize="20" margins="{bottom=20}"/>
+      <entrada campo="total.ini" titulo="Total " />
+      <entrada campo="des.ini" titulo="Destreza" />
+      <entrada campo="power.ini" titulo="Poder" />
+      <entrada campo="talento.ini" titulo="Talento" />
+    </layout>
+  </template>
+</form>

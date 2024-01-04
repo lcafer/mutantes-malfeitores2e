@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="periciasInfo">         
+
+        <template name="periciaCampo">              
+                <layout align="top" height="17" margins="{bottom=2}">
+                        <checkBox width="17" align="left" margins="{right=5}"/>
+                        <label align="left" width="120" text="$(titulo):" 
+                              horzTextAlign="trailing" margins="{right=5}"/>
+                        <edit align="left" horzTextAlign="center" fontSize="16" width="64"/>
+                </layout>
+        </template>
+
+        <template name="periciaCampoEditavel">              
+                <layout align="top" height="17" margins="{bottom=2}">
+                        <checkBox width="17" align="left" margins="{right=5}"/>
+                        <edit align="left" horzTextAlign="center" fontSize="16" width="64" margins="{right=5}"/>
+                        <edit align="left" horzTextAlign="center" fontSize="16" width="64"/>
+                </layout>
+        </template>
+
+
+        <template name="LayoutDeCamposPadrao">
+                <layout left="20" top="20" width="250" height="800">
+                        <!--
+                                listaDeCampos = totable(body);
+                               
+                                for k, v in pairs(listaDeCampos) do
+                                        CampoParaGerar = v;                            
+                        -->
+                                        <periciaCampo titulo="$(CampoParaGerar)"/>
+                        <!--    
+                            end;
+                        -->
+                </layout>
+        </template> 
+
+         <template name="LayoutDeCamposEditavel">
+                <layout left="$(esquerda)" top="20" width="250" height="800">
+                        <!--
+                                listaDeCampos = totable(body);
+                               
+                                for k, v in pairs(listaDeCampos) do
+                                        CampoParaGerar = v;                            
+                        -->
+                                        <periciaCampoEditavel titulo="$(CampoParaGerar)"/>
+                        <!--    
+                            end;
+                        -->
+                </layout>
+        </template>         
+
+</form>

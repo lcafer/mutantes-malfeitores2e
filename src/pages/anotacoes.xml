@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tab title="Anotações">
-  <!--CONTENT-->
+ <tabControl left="10" width="780" height="550">
+      <tab title="Anotações 1">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="txt"/>
+      </tab>
+      <tab title="Anotações 2">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="txt2"/>
+      </tab>
+      <tab title="Anotações 3">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="txt3"/>
+      </tab>
+    </tabControl>
 </tab>

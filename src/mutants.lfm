@@ -4,7 +4,8 @@
      <import file="lib/index.xml"/>
     <tabControl left="20" top="0" width="800" height="600">
         <import file="pages/geral.xml"/>
-        <import file="pages/talentos-poderes.xml"/>
+        <import file="pages/poderes.xml"/>
+        <import file="pages/talentos.xml"/>
         <import file="pages/pericias.xml"/>
         <import file="pages/equipamentos.xml"/>
         <import file="pages/background.xml"/>

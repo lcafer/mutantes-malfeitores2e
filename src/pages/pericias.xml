@@ -1,4 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tab title="Perícias">
-  <!--CONTENT-->        
+  <!--CONTENT-->
+  <LayoutDeCamposPadrao>
+                {
+                  "Acrobatics",
+                  "Bluff",
+                  "Climb",
+                  "Computers",
+                  "Concentration",
+                  "Diplomacy",
+                  "Disable Device",
+                  "Disguise",
+                  "Drive",
+                  "Escape Artist",
+                  "Gamble",
+                  "Gather Info",
+                  "Handle Animal",
+                  "Intimidate",
+                  "Investigate",
+                  "Medicine",
+                  "Navigate",
+                  "Notice",
+                  "Pilot",
+                  "Ride",
+                  "Search",
+                  "Sense Motive",
+                  "Sleight of Hand",
+                  "Stealth",
+                  "Survival",
+                  "Swim"
+                  }
+  </LayoutDeCamposPadrao>  
+  <LayoutDeCamposEditavel esquerda="300">
+      {
+                  "Acrobatics",
+                  "Bluff",
+                  "Climb",
+                  "Computers",
+                  "Concentration",
+                  "Diplomacy",
+                  "Disable Device",
+                  "Disguise",
+                  "Drive",
+                  "Escape Artist",
+                  "Gamble",
+                  "Gather Info",
+                  "Handle Animal",
+                  "Intimidate",
+                  "Investigate",
+                  "Medicine",
+                  "Navigate",
+                  "Notice",
+                  "Pilot",
+                  "Ride",
+                  "Search",
+                  "Sense Motive",
+                  "Sleight of Hand",
+                  "Stealth",
+                  "Survival",
+                  "Swim"
+                  }
+  </LayoutDeCamposEditavel>
+    <LayoutDeCamposEditavel esquerda="500">
+      {
+                  "Acrobatics",
+                  "Bluff",
+                  "Climb",
+                  "Computers",
+                  "Concentration",
+                  "Diplomacy",
+                  "Disable Device",
+                  "Disguise",
+                  "Drive",
+                  "Escape Artist",
+                  "Gamble",
+                  "Gather Info",
+                  "Handle Animal",
+                  "Intimidate",
+                  "Investigate",
+                  "Medicine",
+                  "Navigate",
+                  "Notice",
+                  "Pilot",
+                  "Ride",
+                  "Search",
+                  "Sense Motive",
+                  "Sleight of Hand",
+                  "Stealth",
+                  "Survival",
+                  "Swim"
+                  }
+  </LayoutDeCamposEditavel>
 </tab>

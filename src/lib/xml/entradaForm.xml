@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template name="entrada">
+  <layout width="64" align="left" margins="{left=2, right=2}">
+    <edit field="$(campo)" height="30" horzTextAlign="center" align="top" />
+    <label text="$(titulo)" align="top" horzTextAlign="center" vertTextAlign="leading" autoSize="true"/>
+  </layout>
+</template>

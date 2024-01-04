@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tab title="Background">
-  <!--CONTENT-->
+   <tabControl left="10" width="780" height="550">
+      <tab title="Detalhes Pessoais">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="detPessoais"/>
+      </tab>
+      <tab title="Aparencia">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="aparencia"/>
+      </tab>
+      <tab title="Personalidade">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="personalidade"/>
+      </tab>
+      <tab title="Taticas">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="taticas"/>
+      </tab>
+      <tab title="História">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="historia"/>
+      </tab>
+      <tab title="Aliados">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="aliados"/>
+      </tab>
+      <tab title="Inimigos">
+         <richEdit align="client" backgroundColor="black" defaultFontColor="white" field="inimigos"/>
+      </tab>
+    </tabControl>
 </tab>

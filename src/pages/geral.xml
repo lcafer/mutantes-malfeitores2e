@@ -2,4 +2,6 @@
 <tab title="Geral">
         <formAtributos />
         <dataLinkAtt />
+        <formResistencias />
+        <formCombate />
 </tab>

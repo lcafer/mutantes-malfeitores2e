@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmPoderesMenu">
+    <template name="Poderes" theme="dark" padding="{left=4, top=4, right=4, bottom=4}">
+
+        <layout align="top" height="30" margins="{bottom=4}">
+            <button text="Inserir Novo Poder" width="150" align="left">
+                <event name="onClick">                           
+                                    self.rclListaDosPoderes:append();
+                </event>
+            </button>
+        </layout>
+
+        <recordList name="rclListaDosPoderes" field="campoDosPoderes" templateForm="frmItemPoderes" align="client" selectable="true">
+
+            <event name="onSelect">
+                    
+                    local node = self.rclListaDosPoderes.selectedNode; 
+                            self.boxDetalhesDoPoder.node = node;                       
+                    
+                            self.boxDetalhesDoPoder.visible = (node ~= nil);
+            </event>
+        </recordList>
+        <dataScopeBox name="boxDetalhesDoPoder" visible="false" align="right" width="400" margins="{left=4, right=4}">
+            <rectangle align="top" color="black" xradius="10" yradius="10" height="180" padding="{top=3, left=3, right=3, bottom=3}">
+
+
+                <layout align="top" height="30" margins="{bottom=4}">
+                    <label align="left" text="Titulo do Poder:" autoSize="true"/>
+                    <edit align="client" field="campoTitulo" text="Poder"/>
+                </layout>
+
+                <layout align="top" height="130">
+                    <image align="left" editable="true" field="campoURLImagem" width="130"/>
+
+                    <layout align="client" margins="{left=2}">
+                        <edit align="top" field="campoSubTitulo" height="30"/>
+                        <textEditor align="top" field="campoTextoGrande" height="100"/>
+                    </layout>
+                </layout>
+            </rectangle>
+        </dataScopeBox>
+    </template>
+</form>

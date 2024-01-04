@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form name="libExports">
+  <import file="xml/entradaForm.xml"/>
   <import file="xml/formAtributos.xml"/>
   <import file="xml/dataLinkAtt.xml"/>
+  <import file="xml/formResistencias.xml"/>
+  <import file="xml/formCombate.xml"/>
+  <import file="xml/periciasInfo.xml"/>
+  <import file="lfm/poderes.lfm" />
+  <import file="lfm/talentos.lfm" />
+  <import file="lfm/equipamentos.lfm" />
 </form>
