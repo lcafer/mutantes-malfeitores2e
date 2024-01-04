@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form formType="sheetTemplate" dataType="firecast.MutantsMasterminds2e" 
+     title="Mutantes e Malfeitores 2e" name="frmFichaMutantesMalfeitores2e"> 
+     <import file="lib/index.xml"/>
+    <tabControl left="20" top="0" width="800" height="600">
+        <tab title="Geral">
+            <!--CONTENT-->
+        </tab>
+        <tab title="Talentos/Poderes">
+            <!--CONTENT-->        
+        </tab>
+        <tab title="Perícias">
+            <!--CONTENT-->        
+        </tab>
+        <tab title="Equipamentos">
+            <!--CONTENT-->        
+        </tab>
+        <tab title="Background">
+            <!--CONTENT-->
+        </tab>
+        <tab title="Anotações">
+            <!--CONTENT-->
+        </tab>
+    </tabControl>
+</form>
