@@ -5,15 +5,15 @@
                 <layout align="top" height="17" margins="{bottom=2}">
                         <checkBox width="17" align="left" margins="{right=5}"/>
                         <label align="left" width="120" text="$(titulo):" horzTextAlign="trailing" margins="{right=5}"/>
-                        <edit align="left" horzTextAlign="center" width="64"/>
+                        <edit align="left" field="$(campo)" horzTextAlign="center" width="64"/>
                 </layout>
         </template>
 
         <template name="periciaCampoEditavel">
                 <layout align="top" height="17" margins="{bottom=2}">
                         <checkBox width="17" align="left" margins="{right=5}"/>
-                        <edit align="left" horzTextAlign="center" width="64" margins="{right=5}"/>
-                        <edit align="left" horzTextAlign="center" width="64"/>
+                        <edit align="left" field="$(campo1)" horzTextAlign="center" width="64" margins="{right=5}"/>
+                        <edit align="left" field="$(campo2)" horzTextAlign="center" width="64"/>
                 </layout>
         </template>
 
@@ -26,7 +26,7 @@
                                 for k, v in pairs(listaDeCampos) do
                                         CampoParaGerar = v;                            
                         -->
-                        <periciaCampo titulo="$(CampoParaGerar)"/>
+                        <periciaCampo titulo="$(CampoParaGerar)" campo="$(CampoParaGerar)"/>
                         <!--    
                             end;
                         -->
@@ -41,7 +41,7 @@
                                 for k, v in pairs(listaDeCampos) do
                                         CampoParaGerar = v;                            
                         -->
-                        <periciaCampoEditavel titulo="$(CampoParaGerar)"/>
+                        <periciaCampoEditavel titulo="$(CampoParaGerar)" campo="$(CampoParaGerar)"/>
                         <!--    
                             end;
                         -->
